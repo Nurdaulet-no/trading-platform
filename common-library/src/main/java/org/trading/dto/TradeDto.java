@@ -22,5 +22,5 @@ public class TradeDto {
     @JsonProperty("T")
     private long tradeTime;
     @JsonProperty("m")
-    private boolean isBayerMarketMaker;
+    private boolean isBuyerMarketMaker;
 }
